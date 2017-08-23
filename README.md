@@ -49,7 +49,9 @@ Pulls out relevant info from API return and displays it to user|
 
 ## Setup/Installation Requirements
 
+* Recieve API key by going to http://openweathermap.org/
 * Clone the repository (https://github.com/dylandills/weather.git)
+* Create .env file at top of directory, with putting exports.apiKey = "YOUR API KEY";
 * Run 'npm install' in your chosen terminal application
 * Run 'bower install' in your chosen terminal application
 * Run 'gulp serve' in your chosen terminal application, then wait for your browser to be opened to the appropriate page.
