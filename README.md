@@ -34,10 +34,10 @@ Want to know what the humidity in your town is? What about the kelvin or the cel
   * It could include a short description of what each does for you
 
 ## Specifications
-| Behavior | Input | Output |
+|Behavior|Input|Output|
+|---|:---|:---|
 | User Inputs City| "Portland, OR" | Accesses inputs into url of api call along with API Key|
-User sees display of humidity, kelvin, and celsius of their city |"The humidity in Portland, OR is 54%
-The temperature in Portland, OR is 300.03° Kelvin or 26.88° Celsius"|
+User sees display of humidity, kelvin, and celsius of their city |"The humidity in Portland, OR is 54% The temperature in Portland, OR is 300.03° Kelvin or 26.88° Celsius"|
 Pulls out relevant info from API return and displays it to user|
 
 ## Integration
