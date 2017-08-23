@@ -1,18 +1,23 @@
+<!DOCTYPE html>
 <html>
   <head>
     <link rel="stylesheet" href="build/css/vendor.css">
+    <link rel="stylesheet" href="build/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
-    <title>Weather</title>
+    <title></title>
   </head>
   <body>
-    <div class="container">
-      <h1>Get Weather Conditions From Anywhere!</h1>
-      <label for="location">Enter a location:</label>
-      <input id="location" type="text">
-      <button class="btn-success" id="weather-location">Get Current Humidity!</button>
-      <div class="showWeather"></div>
-      <a href="weather.html">Click for the weather...</a>
+    <div class="box">
+      <h1>Weather Checker</h1>
+      <label for="location">Enter a city to find humidity and temperature:</label>
+      <input id="location" type="text" name="" value="">
+      <button name="button" id="weather-location">Submit</button>
+      <div class="display">
+        <div class="showWeather"></div>
+        <div class="showKelvin"></div>
+      </div>
     </div>
   </body>
 </html>

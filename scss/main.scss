@@ -1,0 +1,28 @@
+$gray : #d3d3d3;
+$green : #75B975;
+$main: lightblue;
+
+
+body {
+  background-image: url('https://cdn.pixabay.com/photo/2017/06/17/12/58/weather-2412140_960_720.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+}
+.box {
+  background: $gray;
+  border: 3px solid black;
+  margin-top: 15em;
+  padding: 40px 80px;
+  button {
+    font-weight: bold;
+    text-align: center;
+    background: darken($main, 40%);
+    border: none;
+    color: white;
+  }
+}
+button:hover {
+  background: lighten($main, 20%);
+  color: darken($main, 40%);
+}

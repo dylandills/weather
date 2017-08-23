@@ -1,0 +1,11 @@
+.box {
+  background: #d3d3d3;
+  border: 3px solid black;
+  padding: 40px 80px; }
+  .box .button {
+    font-weight: bold;
+    text-align: center;
+    background: red;
+    color: white; }
+
+/*# sourceMappingURL=main.css.map */
