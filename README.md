@@ -4,7 +4,7 @@
 
 #### By **Dylan Dills**
 
-##Description
+## Description
 
 Want to know what the humidity in your town is? What about the kelvin or the celsius? This application is the one for you. With Weather Checker, you can enter in any city and find the humidity, kelvin, or celsius of your town.
 
